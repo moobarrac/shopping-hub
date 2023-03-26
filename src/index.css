@@ -11,3 +11,58 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+:root {
+  --clr-blue: #0059BF;
+  --clr-yellow: #FFCE4E;
+  --clr-white: #FFFFFF;
+  --clr-dark-blue: #0d2b50;
+  --clr-black: #000000;
+  --clr-pine-green: #63766b;
+  --clr-ghost-white: #f8f8fa;
+  --transition: all 0.5s linear
+
+}
+*{
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+button {
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.container{
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+.text-blue {
+  color: var(--clr-blue);
+}
+.text-yellow {
+  color: var(--clr-yellow);
+}
+.text-white {
+  color: var(--clr-white);
+}
+.breadcrumb {
+  padding: 12px 0;
+}
+.breadcrumb-items {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.breadcrumb-items li {
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--clr-pine-green);
+}
+.breadcrumb-seperator {
+  margin: 0 8px;
+}
